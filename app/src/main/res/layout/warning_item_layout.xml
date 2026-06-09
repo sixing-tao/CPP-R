@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/warning_item_container"
+    android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:longClickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <!-- Status indicator dot -->
+    <View
+        android:id="@+id/status_indicator"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Category icon -->
+    <ImageView
+        android:id="@+id/function_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp" />
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <!-- Status icon -->
+    <ImageView
+        android:id="@+id/status_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp" />
+
+</LinearLayout>

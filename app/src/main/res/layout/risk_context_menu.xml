@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/menu_action_top"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:minWidth="140dp"
+        android:gravity="center_vertical|start"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="Undo"
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp"
+        android:background="@drawable/menu_item_undo_bg"/>
+
+    <TextView
+        android:id="@+id/menu_action_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:minWidth="140dp"
+        android:gravity="center_vertical|start"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="Dismiss"
+        android:textColor="#FF111111"
+        android:textSize="14sp"
+        android:background="@drawable/menu_item_dismiss_bg"/>
+
+</LinearLayout>
+
